@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleExecutable", "SingleExecutable\SingleExecutable.csproj", "{3BCE54B5-E6C0-4C2F-9810-2D475D57229B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleExecGen", "SingleExecGen\SingleExecGen.csproj", "{3BCE54B5-E6C0-4C2F-9810-2D475D57229B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA63B79-2C3D-4716-8066-777B05125D8E}
 	EndGlobalSection
 EndGlobal

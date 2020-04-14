@@ -7,7 +7,7 @@ using System.Text;
 using McMaster.Extensions.CommandLineUtils;
 using Mono.Cecil;
 
-namespace SingleExecutable
+namespace SingleExecutableGenerator
 {
 	static class Program
 	{
@@ -16,7 +16,7 @@ namespace SingleExecutable
 		static void Main(string[] args)
 		{
 			var app = new CommandLineApplication(false);
-			app.FullName = nameof(SingleExecutable);
+			app.FullName = nameof(SingleExecutableGenerator);
 			app.Name = Path.GetFileName(ExecutingAssembly.Location);
 			var argExecutable = app.Option("-e", "Executable to inject into.", CommandOptionType.SingleValue);
 			var argOutput = app.Option("-o", "Output file.", CommandOptionType.SingleValue);

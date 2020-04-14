@@ -2,7 +2,7 @@
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 
-namespace SingleExecutable
+namespace SingleExecutableGenerator
 {
 	static class InjectMeCopier
 	{

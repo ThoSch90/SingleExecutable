@@ -1,7 +1,7 @@
 ﻿using System;
 using Mono.Cecil;
 
-namespace SingleExecutable
+namespace SingleExecutableGenerator
 {
     static class Helpers
     {
